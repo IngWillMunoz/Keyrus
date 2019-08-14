@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body background="/img/fondo.jpg">
+    <div id="id01" class="wrapper">
+        <div class="col-sm-6" action="#">
+            <div class="alert alert1 alert-danger alert-dismissible fade show">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <div class="wrapper__alignrigth">Digite su email y contraseña.</div>
+            </div>
+
+            <div class="alert alert1--sec alert-success alert-dismissible fade show">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <div class="wrapper__alignrigth">Login exitoso.</div>
+            </div>
+        </div>
+
+        <form class="modal-content col-sm-3" action="#">
+            <div class="container">
+                <div class="text-center" aria-hidden="true">
+                    <h5><strong class="modal-title">Ingreso al sistema</strong></h5>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-auto">
+                    <div class="input-group mb-2">
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                        <div class="input-group-append">
+                            <div class="input-group-text"><i class="fa fa-user"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="input-group mb-2">
+                        <input type="password" class="form-control" id="pwd" placeholder="Password">
+                        <div class="input-group-append">
+                            <div class="input-group-text"><i class="fa fa-lock"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center"><button type="submit" class="col-sm-4 btn btn-primary"
+                        onclick="ingresar()">Entrar</button></div>
+                <div class="imgcontainer">
+                    <div class="text-center" aria-hidden="true">
+                        <input type="checkbox" checked="checked" name="initsession"> <label for="initsession">Mantener
+                            iniciada la sesión</label>
+                    </div>
+
+                </div>
+            </div>
+
+        </form>
+        <div class="wrapper">
+            <p class="wrapper__message"><ins>No tienes una cuenta? <a href="#">Regístrate!</a></ins></p>
+            <p class="wrapper__message">Olvidaste tu contraseña? <a href="#">Haz click aquí!</a></p>
+        </div>
+    </div>
+
+    <div id="id01" class="wrapper">
+        
+            <div class="col-sm-8" action="#">
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-info"></i></div>
+                    </div>
+                    <input type="text" class="form-control" id="info" placeholder="Keyrus" disabled="true">
+                   
+                </div>
+            </div>
+        
+    </div>
+</body>
+
+</html>
